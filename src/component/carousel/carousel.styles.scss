@@ -1,0 +1,19 @@
+.carousel {
+  width: 90%;
+  height: 80%;
+  margin: 40px auto 20px;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #e50914 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .carousel {
+    display: none;
+  }
+}

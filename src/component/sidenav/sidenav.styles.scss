@@ -1,0 +1,27 @@
+.sidenav-container {
+  width: 7%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #303030;
+}
+
+.nav-icon {
+  color: white;
+}
+
+.nav-icon:hover {
+  color: #e75a61;
+}
+
+.nav-icon:active {
+  color: #e75a61;
+}
+
+@media screen and (max-width: 750px) {
+  .sidenav-container {
+    display: none;
+  }
+}

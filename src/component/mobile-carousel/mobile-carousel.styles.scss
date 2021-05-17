@@ -1,0 +1,15 @@
+.mobile-carousel {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .mobile-carousel {
+    display: block;
+    width: 90%;
+    height: 80vh;
+    margin: 15px auto 10px;
+    div {
+      color: white;
+    }
+  }
+}

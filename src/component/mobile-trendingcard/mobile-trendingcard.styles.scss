@@ -1,0 +1,54 @@
+.mobile-trending-card {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 75vh;
+}
+
+.mobile-trending-poster {
+  background-position: center;
+  background-size: cover;
+}
+
+.mobile-trending-info {
+  background-color: rgba(8, 8, 8, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  .mobile-trending-info-container {
+    margin-left: 20px;
+  }
+
+  h1 {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 24px;
+    padding: 0 0 5px 0;
+  }
+  p {
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 16px;
+  }
+}
+
+.mobile-see-more-btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #e42933;
+  color: #e42933;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 5px 0 0 0;
+  padding: 0.7em 2em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 700;
+}

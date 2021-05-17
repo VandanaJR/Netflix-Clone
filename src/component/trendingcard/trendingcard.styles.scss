@@ -1,0 +1,75 @@
+.trending-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.trending-poster {
+  background-position: center;
+  background-size: cover;
+}
+
+.trending-info {
+  background-color: rgba(8, 8, 8, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  .trending-info-container {
+    width: 90%;
+    margin: 0 0 0 auto;
+  }
+
+  h1 {
+    color: white;
+
+    font-size: 48px;
+    padding: 20px 0;
+  }
+  p {
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.show-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  p {
+    margin-top: 4px;
+    margin-left: 8px;
+  }
+}
+
+.see-more-btn {
+  margin-top: 20px;
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #e42933;
+  color: #e42933;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px 0 0 0;
+  padding: 1em 4em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 700;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    outline: 0;
+  }
+
+  transition: box-shadow 200ms ease-in-out, color 200ms ease-in-out;
+  &:hover {
+    box-shadow: 0 0 40px 40px #e42933 inset;
+  }
+}
