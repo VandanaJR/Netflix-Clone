@@ -12,7 +12,8 @@
     position: relative;
     width: 100%;
     margin-bottom: 13vh;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
   }
   .mobile-logo {
     display: block;
