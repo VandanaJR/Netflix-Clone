@@ -6,9 +6,10 @@
   .mobilenav-container {
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     background-color: #303030;
+    padding-bottom: 30px;
     .nav {
       display: flex;
       flex-direction: row;
